@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+
+.data-box-section .data-box .data-box-inner{
+	height: 140px;
+	color: #fff;
+	overflow: hidden;
+}
+
+.data-box-section .data-box .data-box-inner p{
+	color: #fff;
+	font-size: 15px;
+	margin-left: 5px;
+	margin-top: 75px;
+}
+
+.data-box-section .data-box .data-box-inner h3{
+	margin: -20px 0 0 5px;
+}
+
+.data-box-section .data-box .data-box-inner:before{
+	font-size: 85px;
+	color: #fff;
+	opacity: 0.6;
+	position: absolute;
+	background-position: right;
+	right: 5px;
+	top: -20px;
+	font-family: 'bootstrap-icons';
+}
+
+.data-box-section .data-box .data-box-1:before{
+	content: '\F17C';
+}
+
+.data-box-section .data-box .data-box-2:before{
+	content: '\F4D0';
+}
+
+.data-box-section .data-box .data-box-3:before{
+	content: '\F67A';
+}
+
+.data-box-section .data-box .data-box-4:before{
+	content: '\F7E1';
+}
+
+.data-box-section .data-box .data-box-1{
+	background: #0000ff;
+}
+
+.data-box-section .data-box .data-box-2{
+	background: #3366ff;
+}
+
+.data-box-section .data-box .data-box-3{
+	background: #ff6600;
+}
+
+.data-box-section .data-box .data-box-4{
+	background:  #ff3333;
+}

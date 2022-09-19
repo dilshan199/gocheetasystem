@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+
+.table-content .message-section img{
+	width: 45%;
+	filter: grayscale(100%) opacity(50%);
+}
+
+.page-header .home-btn{
+	color: #ff6600;
+}
+
+.page-header .home-btn:hover{
+	color: #ff751a;
+}
+
+.page-header .back-btn{
+	border-color: #ff6600;
+	color: #ff6600;
+}
+
+.page-header .back-btn:hover{
+	background: #ff6600;
+	color: #fff;
+}
+
+form .save-btn{
+	background: #ff6600;
+	color: #fff;
+}
+
+form .save-btn:hover{
+	background: #ff751a;
+	color: #fff;
+}

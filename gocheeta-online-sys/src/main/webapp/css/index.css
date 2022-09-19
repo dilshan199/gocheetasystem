@@ -1,0 +1,155 @@
+@charset "ISO-8859-1";
+
+/*=====================================
+			SIDEMENU CSS
+======================================*/			
+.wrapper .sidemenu{
+	width: 250px;
+	max-width: 250px;
+	height: 100%;
+	z-index: 1;
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	transition : 0.2s ease-in-out;
+	background: #1a1a1a;
+}
+
+.sidemenu .sidemenu-header{
+	height: 65px;
+	background: #262626;
+}
+
+.sidemenu .sidemenu-header h3{
+	font-style: italic;
+	color: #fff;
+}
+
+.sidemenu .sidemenu-profile-section{
+	height: 75px;	
+}
+
+.sidemenu .sidemenu-profile-section .profile-upper-letter{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	padding: 8px 16px;
+	background: #e6e6e6;
+	font-weight: 700;
+	font-size: 25px;
+	color: #8c8c8c;
+}
+
+.sidemenu .sidemenu-profile-section .text-section{
+	margin: -45px 0 0 58px;
+	color: #fff
+}
+
+.sidemenu .sidemenu-profile-section .text-section h6{
+	margin-top: 10px;
+}
+
+.sidemenu .sidemenu-profile-section .text-section p{
+	margin-top: -12px;
+	font-size: 12px;
+}
+
+/*.sidemenu .sidemenu-navigation-bar{
+	overflow: scroll;
+	overflow-x: hidden;
+	max-height: 99%;
+}
+
+.sidemenu .sidemenu-navigation-bar::-webkit-scrollbar-thumb{
+	background: #ff6600;
+	border-radius: 5px;
+}*/
+
+.sidemenu .sidemenu-navigation-bar .active{
+	background: #ff6600;
+	color: #fff;
+	font-size: 14px;
+}
+
+.sidemenu .sidemenu-navigation-bar .active:hover{
+	background: #ff751a;
+}
+
+.sidemenu .sidemenu-navigation-bar .accordion li a{
+	color: #fff;
+	font-size: 14px;
+}
+
+.sidemenu .sidemenu-navigation-bar .accordion li a:hover{
+	background: #ff6600;
+	border-radius: 5px;
+}
+
+.sidemenu .sidemenu-navigation-bar .accordion li .submenu{
+	display: none;
+	background: #262626;
+}
+
+.sidemenu .sidemenu-navigation-bar .accordion li.open i.bi-chevron-right{
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+.sidemenu .sidemenu-navigation-bar .accordion li.open i.bi-chevron-right{
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+/*===========================================
+			RIGHT PANEL CSS
+============================================*/
+.wrapper .right-panel .right-panel-top__section{
+	background: #fff;
+	height: 65px;
+}
+
+.wrapper .right-panel .right-panel-top__section .screen-resizer{
+	color: #ff6600;
+}
+
+.wrapper .right-panel .right-panel-top__section ul li a{
+	color: #8c8c8c;
+	text-decoration: none;
+}
+
+.wrapper .right-panel .right-panel-top__section ul li a:hover{
+	color: #ff6600;
+}
+
+.right-panel .right-panel-top__section ul li a .profile-pic span{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background: #e6e6e6;
+	color: #bfbfbf;
+	font-size: 20px;
+	padding: 8px 15px;
+	font-weight: 700;
+}
+
+.right-panel .right-panel-top__section ul li a:hover .profile-pic span{
+	color: #ff6600;
+	background: #ffe0cc;
+}
+
+.right-panel .right-panel-top__section ul li a .profile-info h6{
+	margin-top: -5px;
+}
+
+.right-panel .right-panel-top__section ul li a .profile-info p{
+	font-size: 14px;
+	margin-top: -10px;
+}
+
+iframe{
+	height: 582px;
+}			
